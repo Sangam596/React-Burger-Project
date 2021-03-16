@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import classes from "./BurgerIngredients.module.css";
 
 
-
  class BurgerIngredients extends Component {
     render() {
         let ingredient = null;
@@ -16,7 +15,7 @@ import classes from "./BurgerIngredients.module.css";
                ingredient = (
                    <div className={classes.BreadTop} >
                        <div className={classes.Seeds1}>
-                           <div className={classes.Seeds1}>
+                           <div className={classes.Seeds2}>
    
                            </div>
                        </div>

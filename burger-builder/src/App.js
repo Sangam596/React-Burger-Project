@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Layout from './Components/Layout/Layout';
+import Layout from './HOC/Layout/Layout';
 import BurgerBuilder from './Containers/BurgerBuilder/BurgerBuilder';
 
 export class App extends Component {
@@ -8,6 +8,7 @@ export class App extends Component {
         <Layout>
           <BurgerBuilder/>
         </Layout>
+       
     )
   }
 }
