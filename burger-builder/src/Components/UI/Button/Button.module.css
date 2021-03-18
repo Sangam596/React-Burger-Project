@@ -15,10 +15,14 @@
     padding-left: 0;
 }
 
-.Success{
-    color: #944317;
+.Button:disabled{
+    color: #ccc;
 }
 
 .Danger{
+    color: #944317;
+}
+
+.Success {
     color: #5C9210;
 }

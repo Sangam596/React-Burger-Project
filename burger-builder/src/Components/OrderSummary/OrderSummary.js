@@ -20,10 +20,10 @@ import Button from "../UI/Button/Button";
             <p><strong>Total Price: {props.price}</strong></p>
             <p>Continue To Checkout?</p>
             <Button btnType='Success'
-             clicked={props.purchaseContinued}>CANCEL</Button>
+             clicked={props.purchaseCancelled}>CANCEL</Button>
             <Button 
             btnType='Danger' 
-            clicked={props.purchaseCancelled} >CONTINUE</Button>
+            clicked={props.purchaseContinued } >CONTINUE</Button>
         </Aux>
     )
 }
